@@ -26,7 +26,8 @@ namespace compilex
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseRouting();
+            app.UseRouting();  
+
 
             app.UseAuthorization();
 
@@ -34,7 +35,7 @@ namespace compilex
                 name: "default",
                 pattern: "{controller=CreateUsers}/{action=Index}/{id?}");
 
-            app.Run();
+            app.Run(); 
         }
     }
 }
