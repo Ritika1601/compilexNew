@@ -1,0 +1,88 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - compilex</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/compilex.styles.css" asp-append-version="true" />
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico" />
+
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body id="page-top">
+ <div class="conatiner">
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+
+            <div class="d-flex justify-content-center">
+                <div class="text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">JOB FOR YOU</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Find Job According To Your Profile</h2>
+                    <a class="btn btn-primary" href="#about">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="log-in-box" id="log-in-box">
+        <button class="fa fa-window-close fa-2x col-md-1 text-primary" id="closeBtn" aria-hidden="true"></button>
+        <h1 class="mx-auto my-0 text-uppercase">JOB FOR YOUsdvsdvsvd</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Find Job According To Your Profile</h2>
+        <a class="btn btn-primary" href="#about">Get Started</a>
+    </div>
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-white mb-4">Placement Protection Plan</h2>
+                    <p class="text-white-50">
+                        We help you get a job or you get your money back.
+                        <a href="https://startbootstrap.com/theme/grayscale/">Learn More</a>
+
+                    </p>
+                    <button type="button" class="btn btn-info " asp-controller="Create" asp-action="Index" >FIND JOBS</button>
+                </div>
+            </div>
+            <img class="img-fluid" src="~/css/7566-removebg-preview.png" alt="..." />
+        </div>
+    </section>
+    <!-- Projects-->
+    <section class="projects-section bg-light" id="projects">
+        <div class="container px-4 px-lg-5">
+            <!-- Featured Project Row-->
+            <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="~/css//4149593.jpg" alt="..." /></div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>COURSES</h4>
+                        <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+                        <button type="button" class="btn btn-info mt-3"  asp-controller="Courses" asp-action="Index" >Remote Courses</button>
+                            
+                    </div>
+                </div>
+            </div>
+            </div>
+           
+            <script src="js/scripts.js"></script>
+
+        </div>
+    </section>
+
+</body>
+</html>

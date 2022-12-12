@@ -9850,23 +9850,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ritika.maheshwari\\.nuget\\packages\\": {},
+    "C:\\Users\\jayesh.dufare\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ritika.maheshwari\\Desktop\\training\\compilex\\compilex.csproj",
+      "projectUniqueName": "C:\\Users\\jayesh.dufare\\Desktop\\compilexNew\\compilexNew\\compilex.csproj",
       "projectName": "compilex",
-      "projectPath": "C:\\Users\\ritika.maheshwari\\Desktop\\training\\compilex\\compilex.csproj",
-      "packagesPath": "C:\\Users\\ritika.maheshwari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ritika.maheshwari\\Desktop\\training\\compilex\\obj\\",
+      "projectPath": "C:\\Users\\jayesh.dufare\\Desktop\\compilexNew\\compilexNew\\compilex.csproj",
+      "packagesPath": "C:\\Users\\jayesh.dufare\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jayesh.dufare\\Desktop\\compilexNew\\compilexNew\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ritika.maheshwari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jayesh.dufare\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

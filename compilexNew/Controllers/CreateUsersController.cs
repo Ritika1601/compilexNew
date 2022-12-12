@@ -17,7 +17,11 @@ namespace compilex.Controllers
         {
             _context = context;
         }
-
+        // GET: CreateUsers
+        public async Task<IActionResult> HomePage()
+        {
+            return View(await _context.CreateUsers.ToListAsync());
+        }
         // GET: CreateUsers
         public async Task<IActionResult> Index()
         {

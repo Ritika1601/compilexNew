@@ -33,7 +33,7 @@ namespace compilex
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=CreateUsers}/{action=Index}/{id?}");
+                pattern: "{controller=CreateUsers}/{action=Create}/{id?}");
 
             app.Run(); 
         }
